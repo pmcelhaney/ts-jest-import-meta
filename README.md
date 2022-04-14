@@ -1,5 +1,7 @@
 # TS-Jest and import.meta.url
 
+(Solved. See https://github.com/kulshekhar/ts-jest/issues/3424)
+
 TS-Jest isn't compiling to ESM so `import.meta.url` is not available.
 
 This repository contains the minimal steps to reproduce.
